@@ -29,6 +29,21 @@
 	95%      0.03511
 	max      2.71744
 
+	Tiempos de constructores sin pit stops
+    count    335466
+    mean     0
+    std      0.02517
+    min     -0.21280
+    5%      -0.02377
+    10%     -0.01876
+    25%     -0.01148
+    50%     -0.00304
+    75%      0.00614
+    90%      0.02103
+    95%      0.03308
+    max      0.99271
+
+
 	No está claro, pero...
 	Millones de Euros invertidos desde 2014 a 2018
 	Mercedes:	2.363

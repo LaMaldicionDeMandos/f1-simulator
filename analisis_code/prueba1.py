@@ -1,4 +1,5 @@
 import pandas as pd
+from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plotter
 
 # Obtengo toda la data
@@ -31,19 +32,16 @@ meanByRaceAndDriver = data.groupby(['raceId', 'driverId']).mean().rename(columns
 meanByRaceAndConstructor = data.groupby(['raceId', 'constructorId']).mean().rename(columns={'milliseconds':'constructorMean'})['constructorMean']
 data = pd.merge(data, meanByRaceAndDriver, on=['raceId', 'driverId'])
 data = pd.merge(data, meanByRaceAndConstructor, on=['raceId', 'constructorId'])
-
 data['driverTime'] = (data['driverMean'] - data['mean'])/data['mean']
 data['constructorTime'] = (data['constructorMean'] - data['mean'])/data['mean']
 
 # Obtengo la info en pantalla
 print(data['driverTime'].describe([.05, .1, .25, .5, .75, .9, .95]))
+print(data['constructorTime'].describe([.05, .1, .25, .5, .75, .9, .95]))
 #plotter.scatter(x=data['driverTime'], y=data['driverId'])
-data['driverTime'].plot.kde()
-plotter.show()
 
 #data = data[((data['raceId'] >= 985) & (data['raceId'] <= 986))]
 
-#plotter.scatter(x=data['milliseconds'], y=data['lap'], c=data['driverId'])
 
 
 
