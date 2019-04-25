@@ -1,0 +1,58 @@
+1. Quiero obtener, la siguiente info, de ahi podria obtener obtener estadisticas y verlas desde distintos puntos de vista. 
+	Quiero sacar percentiles, primero de Piloto -> Tiempo y categorizarlos, luego con Fabricante, etc... Luego podria hacer por cada carrera, sacar el promedio y hacer trasformar el tiempo en un porcentaje para arriba y para abajo del promedio.
+
+	Tiempos de pilotos:
+	count    341684
+	mean     0
+	std      0.03632%
+	min     -0.47088%
+	5%      -0.02554%
+	10%     -0.02043%
+	25%     -0.0126%
+	50%     -0.003856%
+	75%      0.0056163%
+	90%      0.02121%
+	95%      0.035066%
+	max      2.717446
+
+	Tiempos de pilotes sin pit stops
+	count    335466
+	mean     0
+	std      0.03622
+	min     -0.48378	
+	5%      -0.02554
+	10%     -0.02049
+	25%     -0.01249
+	50%     -0.00383
+	75%      0.00563
+	90%      0.02111
+	95%      0.03511
+	max      2.71744
+
+	No está claro, pero...
+	Millones de Euros invertidos desde 2014 a 2018
+	Mercedes:	2.363
+	Ferrari:	2.188
+	Red-Bull:	2.058
+	MacLaren:	1.938
+	Renault:	1.026
+	Williams:	  824
+	Force India:  635
+	Toro Rosso:   624,6
+	Sauber:		  529
+	HAAS:		  316
+	Manor:        238
+	Caterham:	   64,2
+
+Presupuestos de las escuderías de la Fórmula 1 en 2018
+Escudería			Presupuesto
+Mercedes			450 millones de euros
+Ferrari				430 millones de euros
+Reb Bull			350 millones de euros
+McLaren				250 millones de euros
+Renault				200 millones de euros
+Sauber				135 millones de euros
+Williams			135 millones de euros
+Toro Rosso			125 millones de euros
+Haas				110 millones de euros
+Force India			110 millones de euros
