@@ -42,10 +42,6 @@ print(data['constructorTime'].describe([.05, .1, .25, .5, .75, .9, .95]))
 
 #data = data[((data['raceId'] >= 985) & (data['raceId'] <= 986))]
 
-
-
-
-
-
+# Obtengo los promedio TOTALES de constructores y de drivers
 
 
